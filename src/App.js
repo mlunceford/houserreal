@@ -3,14 +3,19 @@ import './App.css';
 import Wizard from './Components/Wizard/Wizard';
 import Dashboard from './Components/Dashboard/Dashboard';
 import Header from './Components/Header/Header'
+import {HashRouter} from 'react-router-dom'
+import routes from './routes'
+
+
 
 function App() {
   return (
-    <div className="App">
-        <Dashboard/>
-        <Wizard/>
-        <Header/>       
-    </div>
+    <HashRouter>
+        <div className="App">
+            <Header/>     
+            {routes}  
+        </div>
+    </HashRouter>
   );
 }
 

@@ -1,22 +1,97 @@
-.App {
-  text-align: center;
+
+/* 
+#3B5249
+#519872
+#AFD4C0
+#E5F4EC
+#8AEA92
+#FEC2C2
+#DEDEDE
+*/
+body{
+    background: #E5F4EC;
+}
+.Header{
+    background: #519872;
+    height: 60px;
+    width: 100vw;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
 }
 
-.App-logo {
-  height: 40vmin;
+.logo{
+    width: 30px;
+    padding: 1rem;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.headerText{
+    font-size: 25px;
+    font-weight: bold;
 }
+.Dashboard{
+    padding-top: 60px;
+    display: flex;
+    box-sizing: border-box;
+}
+.dashboardInfo{
+    box-sizing: border-box;
+    width: 60vw;
+    height: 100vh;
+    padding: 10px;
 
-.App-link {
-  color: #09d3ac;
+}
+.dashHeader{
+    display: flex;
+    justify-content: space-between;
+}
+.dashTitle{
+    font-size: 40px;
+}
+button{
+    border: none;
+    background: none;
+}
+button:hover{
+    cursor: pointer;
+}
+.dashbtn{
+    background: #8AEA92;
+    font-size: 15px;
+    font-weight: bold;
+}
+.sidebars{
+    /* padding-top: 60px; */
+    width: 20vw;
+    height: 100vh;
+    background: #AFD4C0;
+}
+.House{
+    background: #FEC2C2;
+}
+.Wizard{
+    box-sizing: border-box;
+    padding-top: 60px;
+    display: flex;
+}
+.wizardInfo{
+    box-sizing: border-box;
+    width: 60vw;
+    height: auto;
+    padding: 10px;
+
+}
+.wizardHeader{
+    display: flex;
+    justify-content: space-between;
+}
+.wizardTitle{
+    font-size: 30px;
+    font-weight: bold;
+}
+.wizardCancel{
+    background: #FEC2C2;
+    font-size: 15px;
+    font-weight: bold;
 }
