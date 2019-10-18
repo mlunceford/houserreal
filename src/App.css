@@ -10,6 +10,7 @@
 */
 body{
     background: #E5F4EC;
+    margin: 0px;
 }
 .Header{
     background: #519872;
@@ -67,9 +68,6 @@ button:hover{
     height: 100vh;
     background: #AFD4C0;
 }
-.House{
-    background: #FEC2C2;
-}
 .Wizard{
     box-sizing: border-box;
     padding-top: 60px;
@@ -94,4 +92,20 @@ button:hover{
     background: #FEC2C2;
     font-size: 15px;
     font-weight: bold;
+}
+p{
+}
+input{
+    margin-left: 40px;
+}
+.completeBtn{
+    margin-left: 15px;
+    background: #8AEA92;
+}
+.House{
+    background: #DEDEDE;
+    padding: ;
+}
+h4{
+    padding-left: 40px;
 }

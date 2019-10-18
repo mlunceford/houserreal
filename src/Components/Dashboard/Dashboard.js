@@ -7,10 +7,13 @@ class Dashboard extends React.Component {
     constructor(){
         super()
         this.state = {
-            houses: []
+            houses: [1,2,3]  //number just to see 3 items actually cgetting mapped.
         }
     }
     render(){
+        let houses = this.state.houses.map((element, index) =>{
+            return<House key={index} data={element}/>
+        })
         return(
             <div className="Dashboard">
                 <div className="sidebars"></div>
@@ -19,8 +22,9 @@ class Dashboard extends React.Component {
                         <div className="dashTitle">Dashboard</div>
                         <Link to='/wizard'><button className='dashbtn'>Add New Property</button></Link>
                     </div>
+                    <br />
                     <h5>Home Listing</h5>
-                <House/>
+                {houses}
                 </div>
                 <div className="sidebars"></div>
             </div>

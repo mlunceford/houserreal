@@ -4,7 +4,11 @@ class House extends React.Component {
     render(){
         return(
             <div className="House">
-                House
+                <p>Property Name:</p>
+                <p>Adress:</p>
+                <p>City:</p>
+                <p>State:</p>
+                <p>Zip:</p>
             </div>
         )
     }
