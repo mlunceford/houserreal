@@ -103,8 +103,10 @@ input{
     background: #8AEA92;
 }
 .House{
+    box-sizing: border-box;
     background: #DEDEDE;
-    padding: ;
+    padding: 2px 5px 2px 5px;
+    margin: 10px 0px ;
 }
 h4{
     padding-left: 40px;

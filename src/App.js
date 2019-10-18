@@ -1,4 +1,5 @@
 import React from 'react';
+import './reset.css'
 import './App.css';
 import Wizard from './Components/Wizard/Wizard';
 import Dashboard from './Components/Dashboard/Dashboard';
